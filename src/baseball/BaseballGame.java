@@ -153,7 +153,7 @@ public class BaseballGame {
             if (ball > 0) {
                 result += ball + "볼";
             }
-            System.out.println(result.trim()); //힌트 출력
+            System.out.println(result); //힌트 출력
         }
     }
 
