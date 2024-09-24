@@ -1,4 +1,4 @@
-Main 클래스
+<Main 클래스>
 프로그램의 시작점으로, 사용자 입력을 받아 메뉴를 관리하고 게임을 실행합니다.
 
 주요 메서드
@@ -9,7 +9,7 @@ Scanner scanner: 사용자 입력을 받기 위한 Scanner 객체
 List<Integer> gameRecord: 각 게임의 시도 횟수를 저장하는 리스트
 int digitLength: 현재 설정된 자리수 (기본값: 3)
 
-BaseballGame 클래스
+<BaseballGame 클래스>
 게임의 핵심 로직을 담당하는 클래스입니다.
 
 주요 메서드
