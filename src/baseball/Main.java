@@ -37,8 +37,7 @@ public class Main {
                         System.out.println("올바른 자리수를 입력해주세요.");
                     }
                 }
-            }
-                else if (choice.equals("1")) {
+            } else if (choice.equals("1")) {
                 //BaseballGame 객체 생성 & 게임 시작
                 BaseballGame game = new BaseballGame(); //게임 객체 생성
                 int attempts = game.play(); //1-4. 게임 이어서하기 //게임 시작 및 시도 횟수 반환
