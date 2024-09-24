@@ -76,10 +76,10 @@ public class BaseballGame {
                 continue; //입력이 올바르지 않으면 다시 입력받음
             }
 
-            attempts++; //시도 횟수 증가
-
             //1-3. 결과값 출력 및 게임 로직 적용하기
             //3. 게임 진행횟수 증가
+            attempts++;
+
             //4. 스트라이크 개수 계산
             int strike = countStrike(input);
 
